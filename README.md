@@ -15,7 +15,7 @@ En el proyecto destino, el instalador crea:
 1. Levantar la UI:
 
 ```bash
-npm start
+pnpm start
 ```
 
 2. Abrir:
