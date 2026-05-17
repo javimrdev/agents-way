@@ -18,6 +18,16 @@
 - <constraint-1>
 - <constraint-2>
 
+## Specs
+- Directory: `docs/specs/`
+- Active Specs:
+- <spec-file-1.md> - <purpose>
+- <spec-file-2.md> - <purpose>
+- Spec Change Policy:
+- Create missing spec files required by current scope.
+- Update existing spec files when decisions or implementation change.
+- Delete obsolete spec files that no longer apply.
+
 ## Acceptance Criteria
 - [ ] <criteria-1>
 - [ ] <criteria-2>
@@ -67,6 +77,10 @@
 - Focus: <scope>
 - Changes:
 - <change>
+- Specs updated:
+- Created: <spec-file.md>
+- Modified: <spec-file.md>
+- Removed: <spec-file.md>
 - Outcome: <outcome>
 
 ## Risks & Blockers
