@@ -1,0 +1,9 @@
+{
+  "name": "agents-way",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Repositorio de agentes y skills con instalador web local compatible con Codex.",
+  "scripts": {
+    "start": "node app/server.js"
+  }
+}

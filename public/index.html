@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Agents Way Installer</title>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <main class="container">
+      <h1>Agents Way Installer</h1>
+      <p>Selecciona agentes y skills para instalar en un proyecto compatible con Codex.</p>
+
+      <section class="panel">
+        <label for="targetProjectPath">Ruta absoluta del proyecto destino</label>
+        <input id="targetProjectPath" type="text" placeholder="/Users/tuusuario/proyecto" />
+      </section>
+
+      <section class="grid">
+        <div class="panel">
+          <h2>Agentes</h2>
+          <div id="agentsList" class="list"></div>
+        </div>
+
+        <div class="panel">
+          <h2>Skills</h2>
+          <div id="skillsList" class="list"></div>
+        </div>
+      </section>
+
+      <section class="actions">
+        <button id="installBtn">Instalar selección</button>
+      </section>
+
+      <section class="panel">
+        <h2>Resultado</h2>
+        <pre id="result">Sin acciones todavía.</pre>
+      </section>
+    </main>
+
+    <script src="/app.js"></script>
+  </body>
+</html>
