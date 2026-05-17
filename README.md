@@ -27,11 +27,13 @@ pnpm start
 ## Catálogo inicial
 
 ### Agentes
+- `orchestrator-sdd`
 - `frontend-engineer`
 - `backend-engineer`
 - `qa-automation`
 
 ### Skills
+- `orchestration-sdd`
 - `frontend-react`
 - `backend-node`
 - `testing-e2e`
@@ -40,5 +42,6 @@ pnpm start
 
 - `catalog/agents`: definición de agentes
 - `catalog/skills`: definición de skills
+- `catalog/templates`: plantillas de planes para orquestación
 - `app/server.js`: API + servidor estático
 - `public`: interfaz web
